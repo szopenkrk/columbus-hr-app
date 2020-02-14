@@ -14,10 +14,28 @@ function App() {
         </div>
       </header>
       <div className="menu">
-
+        <ul>
+          <li><a href=''>All our products</a></li>
+          <li><a href=''>Inspiration for the office</a></li>
+          <li><a href=''>About OS</a></li>
+        </ul>
       </div>
       {/*CENTER CONTAINER*/}
       <div className="main-container">
+        <div className="left-product-menu">
+          <ul>
+            <li>Paper clips</li>
+            <li>Post-in notes</li>
+            <li>Staples</li>
+            <li>Hole punches</li>
+          </ul>
+        </div>
+        <div className="product-container">
+          <div className="image-box">
+          </div>
+          <div className="product-description-container">
+          </div>
+        </div>
       </div>
 
       {/*FOOTER*/}

@@ -1,21 +1,25 @@
 .App-header {
-  height: 100px;
+  height: 75px;
+  padding-top: 2%;
   display: flex;
-  flex-direction: column;
-  align-items: normal;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: stretch;
   border-bottom: 1px solid grey;
 }
 
 .logo {
   color: black;
+  font-size: 32px;
   width: 227px;
   height: 45px;
   margin-left: 5%;
   font-weight: bold;
 }
+
+.search-place {
+  width: 40%;
+  height: 40px;
+}
+
 
 .menu {
   display: flex;
@@ -25,10 +29,86 @@
   border-bottom: 1px solid grey;
 }
 
+.menu > ul {
+  margin-top: 10px;
+  margin-left: 2%;
+  list-style-type: none;
+}
+
+.menu > ul > li {
+  float: left;
+  font-family: 'Arial Regular', 'Arial';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+  color: #333333;
+  text-align: left;
+  line-height: normal;
+  margin-right: 10px;
+}
+
+.menu > ul > li > a {
+  text-decoration: none;
+  color: #000;
+}
+.menu > ul > li > a:hover {
+  text-decoration: underline;
+}
+
+/*Center*/
+
 .main-container {
+  display: flex;
+  align-items: stretch;
   min-height: 400px;
+}
+
+.left-product-menu {
+  margin-left: 5%;
+  width: 18%;
+  margin-right: 10px;
+  min-height: 200px;
+}
+
+.left-product-menu > ul {
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 13px;
+  color: #333333;
+  text-align: left;
+  line-height: normal;
+  list-style: none;
+  border: 1px solid grey;
 
 }
+
+.left-product-menu > ul > li {
+  margin-left: 10px;
+}
+
+.left-product-menu > ul > li > a {
+
+}
+
+.product-container {
+  display: flex;
+  align-items: stretch;
+  min-height: 300px;
+  width: 75%;
+}
+
+.image-box {
+  width: 35%;
+  min-height: 200px;
+}
+
+.product-description-container {
+  width: 65%;
+  min-height: 200px;
+  background-color: black;
+}
+  /*FOOTER*/
 
 .App-footer {
   height: 100px;
